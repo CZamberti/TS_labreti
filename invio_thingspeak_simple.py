@@ -34,8 +34,8 @@ def Traccia_e_Invio_TS():
     except:
         print "Connessione fallita, riprovare." 
 
-#ripeti operazione ogni 16 secondi (tempo minimo per l'API: 15 secondi)
+#ripeti operazione ogni 30 secondi (tempo minimo per l'API: 15 secondi)
 if __name__ == "__main__":
     while True:
         Traccia_e_Invio_TS()
-        time.sleep(16) 
+        time.sleep(30) 
